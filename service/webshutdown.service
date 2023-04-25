@@ -1,0 +1,9 @@
+[Unit]
+Description=Web-Shutdown Service
+
+[Service]
+ExecStart=web-shutdown
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
